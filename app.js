@@ -79,13 +79,13 @@ function bookTicket() {
     total = document.getElementById("total").innerText;
 
     document.getElementById("result").innerText =
-      "Booked Tickets " +
+      "Number of Tickets: " +
       totalTicket +
       ". " +
       
-      "First class : " +
+      "First Class Ticket: total " +
       firstClass +
-      " Economy class: " +
+      ". Economy Class: total " +
       economyClass +
       "." + 
       " Departure " +
@@ -93,7 +93,7 @@ function bookTicket() {
       " & Return " +
       date2 +
       "." +
-      "Total(10% vat) " +
+      " Total Amount (with 10% vat): " +
       total;
 
   });
